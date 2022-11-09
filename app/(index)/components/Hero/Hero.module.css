@@ -1,0 +1,21 @@
+.rating {
+    color: gold;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: relative;
+}
+
+.description {
+    opacity: 0.8;
+}
+
+.coverImage {
+    z-index: -1;
+    object-fit: cover;
+
+}
